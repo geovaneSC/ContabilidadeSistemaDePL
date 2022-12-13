@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>patrimonio liquido</title>
+</head>
+<body>
+        <!-- titulo e obs -->
+    <div id="menu">
+    <h1>Patrimonio liquido</h1>
+        <p><strong>OBS:</strong> Use a calculadora para calcular os seus bens, direitos e obrigações, lembrando da formula:</p>
+        <p><strong> PL = B + D - O</strong></p>
+        </div>
+    <section>
+        <div id="nome">
+            <h3>Informe o seu nome e sobrenome:</h3>
+            <p>Nome: <input type="text" name="sobrenome" id="sobrenome"> 
+            </p>
+        </div>
+        <!-- calculadora -->
+        <div id="mais">
+            <h3>calculadora</h3>
+            <p>soma <input type="number" name="numero" id="so"> +
+            <input type="number" name="numero" id="so1"><input type="button" value="soma" onclick="somar()"></p>
+            
+        </div>
+        <div id="res1"> resultado....</div>
+        
+       <!-- parte do PL -->
+        <div id="msg">
+           <h3>Informe os dados pedidos abaixo:</h3>
+            <p>Bens: <input type="number" name="num" id="bens"></p>
+            <p>Direitos: <input type="number" name="num" id="dt"></p>
+            <p>Obrigações: <input type="number" name="num" id="obg"></p>
+            <input type="button" value="contar" onclick="contar()">
+        </div>
+        <div id="res">
+               <p>resposta...</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

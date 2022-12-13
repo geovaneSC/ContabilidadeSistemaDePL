@@ -1,0 +1,61 @@
+body{
+    background-color: rgba(63, 59, 59, 0.548);
+    font: normal 18pt arial;
+    color: white;
+    text-align:r;
+}
+h1{
+    text-align: center;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    margin: 5%;
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+     
+}
+input#sobrenome{
+    width: 300px;
+    height: 25px; 
+}
+div#nome p{
+    margin: 2%;
+}
+div#mais p{
+    margin: 2%;
+}
+input#so{
+    width: 100px;
+    height: 20px;  
+}
+input#so1{
+    width: 100px;
+    height: 20px;
+    margin: 2%;
+}
+div#res1{
+    margin: 5%;
+}
+section{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    box-shadow: 10px 10px 10px rgba(34, 32, 32, 0.938);
+    margin-left: 30%;
+    border-radius: 2%;
+    color: black;
+    
+}
+div#msg{
+   margin-left: 2%;
+}
+div#res{
+    margin: 5%;
+}
+div#menu p{
+    text-align: center;
+    font: normal 18pt arial;
+   
+}
